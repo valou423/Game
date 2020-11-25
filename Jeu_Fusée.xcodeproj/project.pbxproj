@@ -10,6 +10,8 @@
 		A7E10719256ECB5900E08547 /* Fusee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10716256ECB5900E08547 /* Fusee.swift */; };
 		A7E1071A256ECB5900E08547 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10717256ECB5900E08547 /* main.swift */; };
 		A7E1071B256ECB5900E08547 /* Fonction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10718256ECB5900E08547 /* Fonction.swift */; };
+		A7E10725256ECEED00E08547 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10724256ECEED00E08547 /* Menu.swift */; };
+		A7E10729256ECF8600E08547 /* Science.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10728256ECF8600E08547 /* Science.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,8 @@
 		A7E10716256ECB5900E08547 /* Fusee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fusee.swift; sourceTree = "<group>"; };
 		A7E10717256ECB5900E08547 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../../../../../Desktop/dossier sans titre/main.swift"; sourceTree = "<group>"; };
 		A7E10718256ECB5900E08547 /* Fonction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonction.swift; sourceTree = "<group>"; };
+		A7E10724256ECEED00E08547 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A7E10728256ECF8600E08547 /* Science.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Science.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				A7E1070C256ECB3900E08547 /* Jeu_Fusée */,
+				A7E10727256ECF3700E08547 /* Aide */,
 				A7E1070B256ECB3900E08547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +67,21 @@
 		A7E1070C256ECB3900E08547 /* Jeu_Fusée */ = {
 			isa = PBXGroup;
 			children = (
+				A7E10717256ECB5900E08547 /* main.swift */,
 				A7E10718256ECB5900E08547 /* Fonction.swift */,
 				A7E10716256ECB5900E08547 /* Fusee.swift */,
-				A7E10715256ECB5900E08547 /* Lieux.rtf */,
-				A7E10717256ECB5900E08547 /* main.swift */,
+				A7E10724256ECEED00E08547 /* Menu.swift */,
+				A7E10728256ECF8600E08547 /* Science.swift */,
 			);
 			path = "Jeu_Fusée";
+			sourceTree = "<group>";
+		};
+		A7E10727256ECF3700E08547 /* Aide */ = {
+			isa = PBXGroup;
+			children = (
+				A7E10715256ECB5900E08547 /* Lieux.rtf */,
+			);
+			path = Aide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +143,8 @@
 			files = (
 				A7E10719256ECB5900E08547 /* Fusee.swift in Sources */,
 				A7E1071B256ECB5900E08547 /* Fonction.swift in Sources */,
+				A7E10725256ECEED00E08547 /* Menu.swift in Sources */,
+				A7E10729256ECF8600E08547 /* Science.swift in Sources */,
 				A7E1071A256ECB5900E08547 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
