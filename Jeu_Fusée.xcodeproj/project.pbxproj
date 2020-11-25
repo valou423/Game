@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7E1070E256ECB3900E08547 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1070D256ECB3900E08547 /* main.swift */; };
+		A7E10719256ECB5900E08547 /* Fusee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10716256ECB5900E08547 /* Fusee.swift */; };
+		A7E1071A256ECB5900E08547 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10717256ECB5900E08547 /* main.swift */; };
+		A7E1071B256ECB5900E08547 /* Fonction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10718256ECB5900E08547 /* Fonction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		A7E1070A256ECB3900E08547 /* Jeu_Fusée */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Jeu_Fusée"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7E1070D256ECB3900E08547 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A7E10715256ECB5900E08547 /* Lieux.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Lieux.rtf; sourceTree = "<group>"; };
+		A7E10716256ECB5900E08547 /* Fusee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fusee.swift; sourceTree = "<group>"; };
+		A7E10717256ECB5900E08547 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../../../../../Desktop/dossier sans titre/main.swift"; sourceTree = "<group>"; };
+		A7E10718256ECB5900E08547 /* Fonction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		A7E1070C256ECB3900E08547 /* Jeu_Fusée */ = {
 			isa = PBXGroup;
 			children = (
-				A7E1070D256ECB3900E08547 /* main.swift */,
+				A7E10718256ECB5900E08547 /* Fonction.swift */,
+				A7E10716256ECB5900E08547 /* Fusee.swift */,
+				A7E10715256ECB5900E08547 /* Lieux.rtf */,
+				A7E10717256ECB5900E08547 /* main.swift */,
 			);
 			path = "Jeu_Fusée";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E1070E256ECB3900E08547 /* main.swift in Sources */,
+				A7E10719256ECB5900E08547 /* Fusee.swift in Sources */,
+				A7E1071B256ECB5900E08547 /* Fonction.swift in Sources */,
+				A7E1071A256ECB5900E08547 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
